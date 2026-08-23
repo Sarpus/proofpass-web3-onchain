@@ -13,7 +13,7 @@ ProofPass lets an authorized issuer create a credential record, store its crypto
 - Local Hardhat deployment ✅
 - Demo credential issuance ✅
 - Frontend onchain reads ✅
-- Wallet-powered issuer dashboard ⏳
+- Wallet-powered issuer dashboard ✅
 - Base Sepolia deployment ⏳
 
 ## Project structure
