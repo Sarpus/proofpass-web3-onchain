@@ -1,0 +1,21 @@
+{
+  "name": "proofpass-web3-onchain-blockchain",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.1.8",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@types/node": "^22.20.1",
+    "hardhat": "^3.14.0",
+    "typescript": "~6.0.3",
+    "viem": "^2.55.19"
+  },
+  "description": "Solidity and Hardhat workspace for ProofPass Web3 — Onchain Credentials.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat ignition deploy ./ignition/modules/CertificateRegistry.ts --network localhost",
+    "issue:local": "hardhat run ./scripts/issueCredential.ts --network localhost"
+  }
+}
